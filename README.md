@@ -5,8 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ReactiveRobot is a lean and mean react state management framework that promotes a high level of decoupling, granular control of rendering, and components that react to events. It is intended to be a simple, unopinionated, and highly performant alternative to popular state management systems such as Redux, mobx, useContext, etc. It is also sort of like rxjs without operators - a way of producing and consuming a stream of data in a network of decoupled objects using a pub/sub mechanism.
 
 Reactive Robot has two main rules:
-#do not observe or react directly to changes in global state
-#use only events to cause ui updates
++do not observe or react directly to changes in global state
++use only events to cause ui updates
 
 If you follow these rules, Reactive Robot will allow you to create an application which is highly decoupled, scalable and performant. Because everything is an event, you have complete control over rendering and asynchronous operations.
 
