@@ -1,5 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## State Management Framework For React
+
+ReactiveRobot is a lean and mean react state management framework that promotes a high level of decoupling, granular control of rendering, and components that react to events. It is intended to be a simple, unopinionated, and highly performant alternative to popular state management systems such as Redux, mobx, useContext, etc. It is also sort of like rxjs without operators - a way of producing and consuming a stream of data in a network of decoupled objects using a pub/sub mechanism.
+
+Reactive Robot has two main rules:
+do not observe or react directly to changes in global state
+use only events to cause ui updates
+
+If you follow these rules, Reactive Robot will allow you to create an application which is highly decoupled, scalable and performant. Because everything is an event, you have complete control over rendering and asynchronous operations.
+
+You can examine the ReactiveRobot object yourself, ReactiveRobot.js. It is quite simple. It has a list of observers, methods to add and remove them, and a next method, which will call the registered observer functions with any event that comes thru. There is also a globalData, or gData property on the Reactive Robot object which can act as a cache for global data that you might want to reuse when loading/unloading views. Do not directly react to changes on this object or you will break the first rule above and lose the benefits of the Reactive Robot framework.
+
+please see the react-robot-example to get started:
+[React Robot Example](https://github.com/briancoburn/reactive-robot-example)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
