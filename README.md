@@ -20,7 +20,7 @@ ReactiveRobot.js<br />
 Events.js<br />
 DataService.js<br />
 UIControls.js<br />
-Component1.js<br />
+Component1.js<br /><br />
 ReactiveRobot.js itself, which adds/removes observers, and sends events to them and keeps a data cache. Events.js is not required, but is a convenient way to store string constants for events that will give you code-completion in your IDE. Component1 is an example lower-level component that needs realtime data updates. Each Component1 will observe the COMPONENT_UPDATE_RECEIVED event, and check if the name matches its own. If so, it updates, and nobody else does. DataService is included to simulate receiving of async data, like if you were getting updates over a socket that could be for any component. In this simulation it sends an update to a random component, at an interval that is specified in UIControls.
 
 
