@@ -12,8 +12,6 @@ If you follow these rules, Reactive Robot will allow you to create an applicatio
 
 You can examine the ReactiveRobot object yourself, ReactiveRobot.js. It is quite simple. It has a list of observers, methods to add and remove them, and a next method, which will call the registered observer functions with any event that comes thru. There is also a globalData, or gData property on the Reactive Robot object which can act as a cache for global data that you might want to reuse when loading/unloading views. Do not directly react to changes on this object or you will break the first rule above and lose the benefits of the Reactive Robot framework.
 
-please see the react-robot-example to get started:
-[React Robot Example](https://github.com/briancoburn/reactive-robot-example)
 
 
 ## Available Scripts
