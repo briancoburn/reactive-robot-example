@@ -27,7 +27,7 @@ ReactiveRobot.js itself, which adds/removes observers, and sends events to them 
 
 
 
-## Available Scripts
+## Available Scripts (inherited from create-react-app)
 
 In the project directory, you can run:
 
