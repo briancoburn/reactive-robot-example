@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and
+[Reactive Robot](https://github.com/briancoburn/reactive-robot)
 
 ## State Management Framework For React
 
