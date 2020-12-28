@@ -3,6 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## State Management Framework For React
 
+This is an example of how to use the reactive-robot state management framework for react.
+
 ReactiveRobot is a lean and mean react state management framework that promotes a high level of decoupling, granular control of rendering, and components that react to events. It is intended to be a simple, unopinionated, and highly performant alternative to popular state management systems such as Redux, mobx, useContext, etc. It is also sort of like rxjs without operators - a way of producing and consuming a stream of data in a network of decoupled objects using a pub/sub mechanism.
 
 Reactive Robot has two main rules:<br />
